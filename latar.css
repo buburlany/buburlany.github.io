@@ -12,7 +12,9 @@ body {
 
 .teksdeskripsi {
     line-height: 1.5em;
+    
 }
+
 
 /*start debug*/
 .bg-honeydew{
@@ -170,18 +172,18 @@ body {
   transition-delay: 0.2s;
 }
 
-/*gambar transparan di artikel*/
-.background{
-  background-image: url("../foto_produk/injin.jpg");
-  background-repeat: no-repeat;
-  /* background-size: cover; */
-  background-position: center;
-}
-
 .transbox{
   margin: 30px;
   opacity: 0.6;
   filter: alpha[opacity(=60)];
+}
+
+.transbox ul{
+  padding-left: 0px;
+}
+
+.transbox li {
+  margin-left: 15px;
 }
 
 .transbox p{
